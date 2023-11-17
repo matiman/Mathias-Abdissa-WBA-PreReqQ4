@@ -11,7 +11,7 @@ console.log(keypair.publicKey.toBase58());
 
 const connection = new Connection("https://api.devnet.solana.com");
 // Github account
-const github = Buffer.from("Mati", "utf8");
+const github = Buffer.from("Matiman", "utf8");
 
 // Create our anchor provider
 const provider = new AnchorProvider(connection, new Wallet(keypair), {
